@@ -1,0 +1,169 @@
+//Styles for wikipedia search tool
+ul li {
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+.innerlink {
+	cursor:pointer;
+	border-bottom:1px dotted #ccc;
+}
+body {	
+font-family:arial;
+background-color:#fff;
+margin:0px;
+padding:0px;
+}	
+img {
+	max-width:250px;
+	height:auto;
+	}
+h1 {
+	text-align:center;
+	font-size:40px;
+	margin-bottom:0px;
+	}
+
+h2 {
+	clear:both;
+	font-size:36px;}
+h3 {
+	clear:both;
+	}
+
+.wrap {
+width:600px;
+background-color:#fff;
+margin:0px auto;
+padding-left:60px;
+padding-right:60px;
+padding-bottom:20px;
+padding-top:10px;
+border-bottom:1px solid #c8c8c8;
+}
+
+.info {
+	width:347px;
+	background-color:#292929;
+	float:left;
+	color:#fff;
+	}
+	
+.info a{
+	color:#fff;
+	}	
+.info tr th.summary {
+	background-color:#000!important;
+	padding:10px;
+	color:#fff;
+	}
+
+.info tr th {
+	background-color:#000!important;
+	padding:3px;
+	color:#fff;
+	}
+	
+.info tr td {
+	padding:15px;
+	font-size:12px;
+	}	
+.content {
+	width:600px;
+	margin:0px auto;
+	}
+	
+.content p {
+	line-height:23px;
+	font-size:16px;
+	color:#666666;
+	}
+	
+ .thumbcaption a {color:#fff;text-decoration:none;}
+ .content p a {
+	color:#666666;
+	text-decoration:none;
+	}
+	
+ .content .thumb  {
+	float:left;
+	margin-right:30px;
+	}
+	
+.content .thumb img,
+.image {	
+	margin-bottom:0px;
+	max-width:250px;
+	}
+
+.content ul li {	
+	font-size:13px;
+	}
+
+.content ul li,	
+.content .refbegin ul li,
+.content .reflist ol li{
+	margin-bottom:8px;
+	line-height:20px;
+	font-size:14px;
+	}
+
+sup.reference {display:none;}
+	
+.thumbcaption {
+	background-color:#000;
+	color:#fff;
+	padding:20px;
+	margin-bottom:20px;
+	}	
+
+.magnify {display:none;}
+input[type=text]#searchterm {
+	width:100%;
+	padding:10px;
+	margin-bottom:30px;
+	border:1px solid #ccc;
+	font-size:24px;
+ }
+ 
+.dablink {
+ margin-bottom:20px;
+}
+
+.wikitable {
+	width:90%!important;
+	font-size:11px;
+}
+.mw-editsection {display:none;}
+
+@media only screen and (max-device-width: 480px) {
+		h1 {font-size:25px;}
+		
+		.wrap {
+		width:100%;
+		}
+		
+		.content {
+		width:80%;
+		margin-left:20px;
+		}
+		
+		.wrap {
+		padding-left:0px;
+		padding-right:0px;
+		}
+		
+		input[type=text]#searchterm {
+		width:80%;
+		margin-left:20px;
+		font-size:16px;
+		}
+		
+	}
+
+
+	
