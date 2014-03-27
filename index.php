@@ -4,6 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1, maximum-scale=1,user-scalable=no">
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="apple-touch-icon" sizes="114x114" href="wiki_icon.png" />
+	<link href='http://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
   	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
   	<script src="js/scripts.js"></script>
 </head>

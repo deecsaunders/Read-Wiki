@@ -13,7 +13,7 @@ input:focus, textarea:focus {
 	border-bottom:1px dotted #ccc;
 }
 body {	
-font-family:arial;
+font-family: 'PT Serif', serif;
 background-color:#fff;
 margin:0px;
 padding:0px;
@@ -36,7 +36,7 @@ h3 {
 	}
 
 .wrap {
-width:600px;
+width:700px;
 background-color:#fff;
 margin:0px auto;
 padding-left:60px;
@@ -73,16 +73,30 @@ border-bottom:1px solid #c8c8c8;
 	font-size:12px;
 	}	
 .content {
-	width:600px;
+	width:700px;
 	margin:0px auto;
 	}
 	
 .content p {
-	line-height:23px;
-	font-size:16px;
+	letter-spacing: .01rem;
+font-weight: 100;
+font-style: normal;
+font-size: 19px;
+line-height: 1.8;
 	color:#666666;
 	}
+
+blockquote{
+	border-left:4px solid #ccc;
+	margin-left:0px;
+	-webkit-margin-start:0px;
 	
+}
+.content blockquote p {
+	padding-left:40px;
+	font-style:italic;
+}
+
  .thumbcaption a {color:#fff;text-decoration:none;}
  .content p a {
 	color:#666666;
