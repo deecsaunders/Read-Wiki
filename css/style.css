@@ -75,6 +75,7 @@ border-bottom:1px solid #c8c8c8;
 .content {
 	width:700px;
 	margin:0px auto;
+	margin-top:40px;
 	}
 	
 .content p {
@@ -137,12 +138,47 @@ sup.reference {display:none;}
 
 .magnify {display:none;}
 input[type=text]#searchterm {
-	width:100%;
+	width:678px;
 	padding:10px;
-	margin-bottom:30px;
 	border:1px solid #ccc;
-	font-size:24px;
+	font-size:16px;
+	height:30px;
+	color:#ccc;
  }
+ 
+ input[type=text].active{
+ 	font-size:24px!important;
+ 	color:#666!important;
+ }
+
+#results div {
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:20px;
+	padding-bottom:20px;
+	border-bottom:1px solid #000;
+ 	background-color:#666;
+ 	color:#fff;
+ }
+
+ #results div:hover {
+ 	background-color:#000;
+ } 
+ 
+#results div a,
+a:-webkit-any-link {
+	
+	text-decoration:none!important;
+}
+
+#results div a {
+	color:#ccc;
+}
+ 
+.searchmatch {
+	font-style:italic;
+	color:#ccc;
+}
  
 .dablink {
  margin-bottom:20px;
@@ -153,6 +189,14 @@ input[type=text]#searchterm {
 	font-size:11px;
 }
 .mw-editsection {display:none;}
+
+#wordcount {
+	position:absolute;
+	right:50px;
+	top:20px;
+	font-size:14px;
+	color:#ccc;
+}
 
 @media only screen and (max-device-width: 480px) {
 		h1 {font-size:25px;}

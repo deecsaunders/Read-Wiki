@@ -10,9 +10,11 @@
 </head>
 <body> 
 <div class="wrap">
+<div id="wordcount"></div>
 <h1>ReadWiki</h1>
 <p style="text-align:center;">Read Any Wikipedia Article Cleanly</p>
 <input type="text" id="searchterm" value="Search single words or phrases..." name="searchterm"/>
+<div id="results"></div>
 <div id="log"></div>
 <div id="pic"></div>
 <div class="content"></div>
